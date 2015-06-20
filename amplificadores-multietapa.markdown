@@ -1006,7 +1006,7 @@ La respuesta en frecuencia para un amplificador de este tipo se ilustra en la si
 
 ![Respuesta en frecuencia del amplificador\label{fig:res}](imagenes/respuestafrecuencia.png)
 
-Mientras que la tolerancia asignado a la respuesta de frecuencia de los altavoces es a menudo ±3 dB, la tolerancia asociada con los amplificadores de potencia es generalmente +0 dB, -3 dB, o más fuerte. Especificación de dónde un amplificador es por 3 dB del nominal de referencia 0 dB es la manera convencional de especificar el ancho de banda de un sistema. Esto se refiere a menudo como el ancho de banda de -3dB.
+Mientras que la tolerancia asignado a la respuesta de frecuencia de los altavoces es a menudo $\pm 3$ dB, la tolerancia asociada con los amplificadores de potencia es generalmente +0 dB, -3 dB, o más fuerte. Especificación de dónde un amplificador es por 3 dB del nominal de referencia 0 dB es la manera convencional de especificar el ancho de banda de un sistema. Esto se refiere a menudo como el ancho de banda de -3dB.
 
 La respuesta en frecuencia para un amplificador menos capaz se muestra en la figura. Este amplificador tiene un ancho de banda de -3dB de 10Hz a 80KHz. Su respuesta cae 1dB a 20 Hz y 0,5dB a 20 KHz.
 
@@ -1222,7 +1222,7 @@ $$I_{S}: Corriente de saturación$$
 
 26 mV a temperatura ambiente. Es proporcional a la temperatura. 
 
-Esta es una de las razones por las cuales el voltaje $V_{be}$ se incrementa con la temperatura. La otra causa (la principal) es el fuerte incremento de la corriente  de saturación con la temperatura. Esto en últimas resulta en un coeficiente negativo de temperatura de $V_{be}$, aproximadamente igual a 2.2 mV/°C.
+Esta es una de las razones por las cuales el voltaje $V_{be}$ se incrementa con la temperatura. La otra causa (la principal) es el fuerte incremento de la corriente  de saturación con la temperatura. Esto en últimas resulta en un coeficiente negativo de temperatura de $V_{be}$, aproximadamente igual a $2.2 mV/^oC$.
 
 Despejando $V_{be}$, se obtiene:
 
@@ -1289,7 +1289,7 @@ La trasconductancia de un transistor bipolar está gobernada por la corriente de
 
 $$g_{m}=\frac{I_{c}}{V_{T}}$$
 
-Donde $V_{T}$ es el voltaje térmico igual a 26mV a 20°C. A una corriente de 1mA $g_{m}$ será:
+Donde $V_{T}$ es el voltaje térmico igual a 26mV a $20^oC$. A una corriente de 1mA $g_{m}$ será:
 
 $$g_{m}=\frac{1mA}{26mV}=0.038S$$
 
@@ -1566,7 +1566,7 @@ tenga en cuenta que esto es solo una aproximación.
 
 En la práctica la resistencia de salida de la etapa no puede excederse. Se ha asumido que la etapa emisor común se maneja con una fuente de voltaje. 
 
-Si es manejada por una fuente con una impedancia significativa, la resistencia de salida de la etapa emisor común degenerada se disminuirá a alguno de los valores dichos anteriormente. Esta reducción ocurrir´pa porque los cambios en la corriente de base que son resultado del efecto Early. 
+Si es manejada por una fuente con una impedancia significativa, la resistencia de salida de la etapa emisor común degenerada se disminuirá a alguno de los valores dichos anteriormente. Esta reducción ocurrirá porque los cambios en la corriente de base que son resultado del efecto Early. 
 
 ## Ancho de banda de la etapa de emisor común y el efecto Miller
 
@@ -1744,7 +1744,7 @@ $$\beta=100$$
 $$f_{T}=100MHz$$
 $$f_{p}=1MHz$$
 
-El $\beta$ AC del transistor comenzara a decrecer a 1MHz. La disminución de la impedancia de entrada del colector común entonces sera capacitiva en naturaleza, y la fase de la corriente de entrada se adelantara en fase al voltaje en un ángulo aproximado a 90°. La transformación impedancias trabaja en los dos sentidos.
+El $\beta$ AC del transistor comenzara a decrecer a 1MHz. La disminución de la impedancia de entrada del colector común entonces sera capacitiva en naturaleza, y la fase de la corriente de entrada se adelantara en fase al voltaje en un ángulo aproximado a $90^o$. La transformación impedancias trabaja en los dos sentidos.
 
 Suponga que tenemos un colector común que está manejado por una impedancia de una fuente de 1K$\Omega$.
 
@@ -1754,9 +1754,9 @@ Sin embargo, la impedancia de salida que se incrementa con la frecuencia es indu
 
 La impedancia de carga presentada por la capacitancia disminuye con el incremento de la frecuencia. La cantidad por la cual esta impedancia de carga es multiplicada por $\beta_{AC}$ también cae con la frecuencia 1MHz.
 
-Esto significa que la impedancia de entrada del C.C en ultimas decrecerá con el cuadrado de la frecuencia. También significa que la corriente en la carga, se adelanta al voltaje en 90°, posteriormente se transformara en otros 90° por la caída de la corriente del transistor con la ganancia de corriente por la frecuencia.
+Esto significa que la impedancia de entrada del C.C en ultimas decrecerá con el cuadrado de la frecuencia. También significa que la corriente en la carga, se adelanta al voltaje en $90^o$, posteriormente se transformara en otros $90^o$ por la caída de la corriente del transistor con la ganancia de corriente por la frecuencia.
 
-Esto significa que la corriente de entrada del colector común adelantara al voltaje aproximadamente 180° . Cuando la corriente esta desfase con el voltaje 180° corresponde a una resistencia negativa; esto puede producir inestabilidad, ya que la impedancia de entrada de este colector común bajo estas condiciones es una resistencia negativa dependiente de la frecuencia. Es explica por qué colocando una resistencia en serie en un colector común algunas veces lo estabiliza. La resistencia negativa se añade tal que la resistencia total es positiva; hay un aspecto mas del comportamiento del C.C que es pertinente  en el uso que se le da como etapa de salida en un amplificador de potencia.
+Esto significa que la corriente de entrada del colector común adelantara al voltaje aproximadamente $180^o$ . Cuando la corriente esta desfase con el voltaje $180^o$ corresponde a una resistencia negativa; esto puede producir inestabilidad, ya que la impedancia de entrada de este colector común bajo estas condiciones es una resistencia negativa dependiente de la frecuencia. Es explica por qué colocando una resistencia en serie en un colector común algunas veces lo estabiliza. La resistencia negativa se añade tal que la resistencia total es positiva; hay un aspecto mas del comportamiento del C.C que es pertinente  en el uso que se le da como etapa de salida en un amplificador de potencia.
 
 
 
